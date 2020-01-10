@@ -1,0 +1,1898 @@
+h1{
+    color: cornsilk;
+    font-family: 'Lobster';
+    text-align: center;
+}
+body{
+background-color: whitesmoke;
+background-image: url("/static/css/img/inicioSesion.jpg");
+background-size: cover;
+
+
+
+}
+
+/* Media query para login */
+#loginForm{
+    justify-content: center;
+    height: 50%;
+    width: 50%;
+    margin-left:25% ;
+    margin-top: 10%;
+    background-color:rgba(0, 0, 0, 0.5) ;
+   
+    
+}
+
+@media screen and (min-width:310px) and (max-width:580px){
+    .text-center {
+        background-image: url("/static/css/img/inicioSesion.jpg");
+        width: 100vw;
+        background-repeat: no-repeat;
+        margin-top: 220%;
+        height: 180%;
+        display: flex;
+      
+    }
+    #loginForm{
+        width: 85vw;
+        margin-top: -208%;
+        height: 110vw;
+        display: flex; 
+    }
+
+}
+
+@media screen and (min-width:580px) and (max-width:780px){
+    .text-center {
+        background-image: url("/static/css/img/inicioSesion.jpg");
+        width: 100vw;
+        background-repeat: no-repeat;
+        margin-top: 220%;
+        height: 180%;
+        display: flex;
+      
+    }
+    #loginForm{
+        width: 80vw;
+        margin-top: -200%;
+        height: 87vw;
+        display: flex; 
+    }
+
+}
+
+@media screen and (min-width:760px) and (max-width:1024px){
+    .text-center {
+        background-image: url("/static/css/img/inicioSesion.jpg");
+        width: 100vw;
+        background-repeat: no-repeat;
+        margin-top: 200%;
+        height: auto;
+        display: flex;
+      
+    }
+    #loginForm{
+        width: 85vw;
+        margin-top: -188%;
+        height: 45vw;
+        display: flex; 
+    }
+
+}
+@media screen and (min-width:1024px) and (max-width:1400px){
+    .text-center {
+        background-image: url("/static/css/img/inicioSesion.jpg");
+        width: 100vw;
+        margin-top: 180%;
+        background-repeat: no-repeat;
+        height: auto;
+        display: flex;
+      
+    }
+    #loginForm{
+        width: 80vw;
+        margin-top: -150%;
+        height: 28vw;
+        display: flex; 
+    }
+
+}
+/* Media query para register */
+.register{
+    background-color: whitesmoke;
+    background-image: url("/static/css/img/inicioSesion.jpg");
+    background-size: cover;
+}
+ .card{
+    max-width:50%;
+    margin-left:25%;
+    height: 120%;
+    margin-top: 1%;
+   
+    background-color:rgba(243, 235, 235, 0.465)
+   
+
+}
+#btn_register{
+    margin-top:1%;
+    margin-left:5%;
+    width:70%;
+    align-self: center;
+} 
+#btn_guardar{
+    margin-top:1%;
+    margin-left:10%;
+    width:25%;
+    align-self: center;
+} 
+#btn_backProfile{
+    margin-top:1%;
+    margin-left:5%;
+    width:25%;
+    align-self: center;
+}
+
+@media screen and (min-width:310px) and (max-width:580px){
+    .register{
+        background-image: url("/static/css/img/inicioSesion.jpg");
+        width: 100vw;
+        background-repeat: no-repeat;
+        margin-top: 340%;
+        
+        display: flex;
+        
+    }
+     .card{
+        max-width:85%;
+        margin-top: -335%;
+        margin-left:9.5%;
+        margin-right:0%;
+       
+        display: flex; 
+    } 
+    #btn_register{
+        width:70%;
+        margin-left:2%;
+    } 
+    #btn_guardar{
+        width:37%;
+        margin-left:2%;
+    }
+    #btn_backProfile{
+        margin-top:1%;
+        margin-left:5%;
+        width:30%;
+        align-self: center;
+    }
+    
+
+}
+
+@media screen and (min-width:360px) and (max-width:680px){
+    .register{
+        background-image: url("/static/css/img/inicioSesion.jpg");
+        width: 100vw;
+        background-repeat: no-repeat;
+        margin-top: 340%;
+        
+        display: flex;
+        
+    }
+     .card{
+        max-width:85%;
+        margin-top: -335%;
+        margin-left:13%;
+        margin-right:0%;
+       
+        display: flex; 
+    } 
+    #btn_register{
+        width:70%;
+        
+    } 
+    #btn_guardar{
+        width:40%;
+        
+        margin-left:-2%;
+    }
+    #btn_backProfile{
+        margin-top:1%;
+        margin-left:2%;
+        width:30%;
+        align-self: center;
+    }
+
+}
+
+
+@media screen and (min-width:410px) and (max-width:780px){
+    .register{
+        background-image: url("/static/css/img/inicioSesion.jpg");
+        width: 100vw;
+        background-repeat: no-repeat;
+        margin-top: 340%;
+        
+        display: flex;
+        
+    }
+     .card{
+        width:75%;
+        margin-top: -314%;
+        margin-left:13%;
+        
+       
+        display: flex; 
+    } 
+    #btn_register{
+        width:70%;
+        margin-left:1.5%;
+    } 
+    #btn_guardar{
+        width:35%;
+        margin-left:1.5%;
+    }
+    #btn_backProfile{
+        margin-top:1%;
+        margin-left:5%;
+        width:30%;
+        align-self: center;
+    }
+   
+}
+
+@media screen and (min-width:760px) and (max-width:1024px){
+    .register{
+        background-image: url("/static/css/img/inicioSesion.jpg");
+        width: 100%;
+        background-repeat: no-repeat;
+        margin-top: 195%;
+        
+        display: flex;
+        
+    }
+     .card{
+        width:55%;
+        margin-top: -180%;
+        margin-left:23%;
+        display: flex; 
+    } 
+    #btn_register{
+        width:70%;
+        margin-left:1.5%;
+    } 
+    #btn_guardar{
+        width:25%;
+        margin-left:1.5%;
+    }
+    #btn_backProfile{
+        margin-top:1%;
+        margin-left:5%;
+        width:25%;
+        align-self: center;
+    }
+   
+
+}
+@media screen and (min-width:1024px) and (max-width:1400px){
+    .register{
+        background-image: url("/static/css/img/inicioSesion.jpg");
+        width: 100vw;
+        background-repeat: no-repeat;
+        margin-top: 100%;
+        height: 100vw;
+        display: flex;
+        
+    }
+     .card{
+        max-width:100%;
+        margin-top: -90%;
+        margin-left:22.5%;
+        
+       
+        display: flex; 
+    } 
+    #btn_register{
+        width:5
+        0%;
+        margin-left:0%;
+    }
+    #btn_guardar{
+        width:25%;
+        margin-left:1.5%;
+    } 
+    #btn_backProfile{
+        margin-top:1%;
+        margin-left:5%;
+        width:25%;
+        align-self: center;
+    }
+   
+}
+/* Media query para pagina-paciente */
+    .container-fluid{
+        display: grid;
+        
+        grid-template-columns: 170% ;
+        height: 100%;
+      
+    }
+    #principal{
+        width: 120%;
+        height: 100%;
+    }
+    #page-top{
+        width: 100%;
+        height: 150%;
+        position: relative;
+    
+        background-repeat: no-repeat;
+       
+
+    }
+    
+    #navbar-body{
+        
+        background-color: #DFDFDF;
+    }
+
+    .col-chatArea{
+       
+       position: relative;
+        left: -8%;
+        top: 5%; 
+       padding-right: 0%;
+      
+    }
+    #cardShadow{
+        width: 80%;
+        height: 105%;
+        background-color: #7FB1D3;
+        
+    }
+    #body-chartArea{
+        width: 100%;
+        height: 45%;
+        position: relative;
+        left: -3%;
+        top: 5%;
+    }
+    #loadingInfoWeght{
+        width: 50%;
+        position: relative;
+        left: 30%;
+        top:80%;
+        font-family: Helvetica, sans-serif;
+        font-weight:bold; 
+        font-size: 120%; 
+        text-align: left;
+    }
+    #msginfo{
+        font-family: Helvetica, sans-serif;
+        font-size: 55%; 
+        text-align: left;
+        position: relative;
+        left: 35%;
+        margin-top:-25%
+    }
+    #linkinfo{
+        font-family: Helvetica, sans-serif;
+        font-size: 55%; 
+        text-align: left;
+        position: relative;
+        left: 35%;
+        top:15%;
+    }
+    /* #subDicv1{ */
+        /* Text-wegth */
+      /*   font-family: Helvetica, sans-serif;
+        font-size: 100%; 
+        text-align: left;
+        position: relative;
+        left: -45%;
+        
+        margin-top: -55%;
+    } */
+    /* #subDicv2{ */
+        /* Text-height */
+        /* font-family: Helvetica, sans-serif;
+        font-size: 100%; 
+        text-align: left;
+        position: relative;
+        left: -27%;
+        
+        margin-top: -55%;
+    } */
+    /* #subDicv3{ */
+        /* Text-indiceMasaCorporal */
+        /* font-family: Helvetica, sans-serif;
+        font-size: 100%; 
+        text-align: left;
+        position: relative;
+        left: -5%;
+        
+        margin-top: -55%;
+       
+    } */
+    /* #subDicv4{ */
+        /* Text-cantidadAnomalias*/
+      /*   font-family: Helvetica, sans-serif;
+        font-size: 100%; 
+        text-align: left;
+        position: relative;
+        left: -45%;
+        margin-top:-40%;
+    } */
+    /* #subDicv5{ */
+        /* Text-Porcentaje de precision*/
+        /* font-family: Helvetica, sans-serif;
+        font-size: 100%; 
+        text-align: left;
+        position: relative;
+        left: -20%;
+        margin-top:-40%;
+    } */
+    /* #subDicv6{ */
+        /* Text-Porcentaje de exito*/
+        /* font-family: Helvetica, sans-serif;
+        font-size: 100%; 
+        text-align: left;
+        position: relative;
+        left: 7%;
+        margin-top:-40%;
+    }
+  */
+    /* #subDicv7{ */
+        /* Text-indiceMasaCorporal */
+       /*  font-family: Helvetica, sans-serif;
+        font-size: 100%; 
+        text-align: left;
+        position: relative;
+        left: -45%;
+        
+        margin-top: -17%;
+       
+    } */
+    /* #subDicv8{ */
+        /* Text-especificidad */
+        /* font-family: Helvetica, sans-serif;
+        font-size: 100%; 
+        text-align: left;
+        position: relative;
+        left: 5%;
+        
+        margin-top: -17%;
+       
+    } */
+    /* #subDicv9{ */
+        /* Text-Especificidad1 */
+        /* font-family: Helvetica, sans-serif;
+        font-size: 100%; 
+        text-align: left;
+        position: relative;
+        left: -19%;
+        
+        margin-top: -17%;
+       
+    } */
+    /* #subDicv10{ */
+        /* Text- */
+        /* font-family: Helvetica, sans-serif;
+        font-size: 100%; 
+        text-align: left;
+        position: relative;
+        left: -5%;
+        
+        margin-top: -65%;
+       
+    } */
+    #select-info{
+        width: 80%;
+        height: 20%;
+        position: relative;
+        left: 35%;
+    }
+    #weght{
+        width: 70%;
+        height: 40%;
+        position: relative;
+        left: 15%;
+        top: 25%;
+    }
+    #image-weight{
+        width:17% ;
+        height: 10%;
+        background-color: #ffff;
+        border: 0px solid #ffff;
+        position: relative;
+        left: -1%;
+        margin-top: -10%;
+    }
+   
+    .col-options{
+        width: 50%;
+        position: relative;
+        left: -15%;
+        
+    }
+    #item-weight{
+        position: relative;
+        left: -26%;
+        width: 28%;
+        height: 20%;
+     
+    }
+    #item-HR{
+        margin-top: 2%;
+        position: relative;
+        left: -26%;
+        width: 28%;
+        height: 20%;
+        
+    }
+    #item-steps{
+        margin-top: 2%;
+        position: relative;
+        left: -26%;
+        width: 28%;
+        height: 20%;
+        
+    }
+    #item-foods{
+        margin-top: 2%;
+        position: relative;
+        left: -26%;
+        width: 28%;
+        height: 20%;
+        
+    }
+
+    @media screen and (min-width:310px) and (max-width:580px){
+        .container-fluid{
+            display: grid;
+            
+            grid-template-columns:190% ;
+            height: 100%;
+          
+        }
+        #principal{
+            width: 100%;
+            height: 100%;
+        }
+        #page-top{
+            background-image: url("/static/css/img/inicioSesion.jpg");
+            width: 100%;
+            height: 100%;
+        
+            background-repeat: no-repeat;
+            
+            
+        }
+        .col-chatArea{
+       
+            position: relative;
+            left: 25%;
+            top: 0%; 
+           padding-right: 0%;
+            
+         }
+         #cardShadow{
+            width: 110%;
+            height: 45%;
+            position: relative;
+            left: -50%;
+            top: 185%;
+            background-color: #7FB1D3;
+         }
+         #body-chartArea{
+            width: 115%;
+            height: 75%;
+            position: relative;
+            left: -8%;
+            top: -8%;
+         }
+         #loadingInfoWeght{
+            width: 50%;
+            position: relative;
+            left: 30%;
+            top:80%;
+            font-family: Helvetica, sans-serif;
+            font-weight:bold; 
+            font-size: 120%; 
+            text-align: left;
+        }
+        #select-info{
+            width: 80%;
+            height: 20%;
+            position: relative;
+            left: 35%;
+        }
+     
+        #weght{
+            width: 70%;
+            height: 40%;
+            position: relative;
+            left: 15%;
+            top: 25%;
+        }
+        #image-weight{
+            width:10% ;
+            height: 10%;
+            background-color: #7FB1D3;
+            border: 0px solid #7FB1D3;
+            position: relative;
+            left: -1%;
+            top: 10%;
+        }
+         .col-options{
+            position: relative;
+            left: -36%;
+            top:49%;
+           
+        }
+        #item-weight{
+            margin-top: 2%;
+            position: relative;
+            left: -35%;
+            width: 51%;
+            height: 24%;
+         
+        }
+        #item-HR{
+            margin-top: 2%;
+            position: relative;
+            left: 20%;
+            top:-25%;
+            width:51%;
+            height: 24%;
+            
+        }
+        #item-steps{
+            margin-top: 2%;
+            position: relative;
+            left: -35%;
+            top:-25%;
+            width: 51%;
+            height: 24%;
+            
+        }
+        #item-foods{
+            margin-top: 2%;
+            position: relative;
+            left: 20%;
+            top: -50%;
+            width: 51%;
+            height: 24%;
+            
+        }
+    }
+    
+    @media screen and (min-width:360px) and (max-width:680px){
+        .container-fluid{
+            display: grid;
+            
+            grid-template-columns:190% ;
+            height: 100%;
+           
+        }
+        #principal{
+            width: 100%;
+            height: 110%;
+        }
+        #page-top{
+            background-image: url("/static/css/img/inicioSesion.jpg");
+            width: 100%;
+            height: 100%;
+        
+            background-repeat: no-repeat;
+        }
+
+        .col-chatArea{
+       
+            position: relative;
+             left: 26%;
+             top: 0%; 
+            padding-right: 0%;
+            
+         }
+         #cardShadow{
+             width: 110%;
+             height: 48%;
+             position: relative;
+             left: -58%;
+             top: 230%;
+             background-color: #7FB1D3;
+         }
+         #body-chartArea{
+             width: 115%;
+             height: 75%;
+             position: relative;
+             left: -8%;
+             top: -8%;
+         }
+        
+         #loadingInfoWeght{
+            width: 85%;
+            position: relative;
+            left: 6%;
+            top:80%;
+            font-family: Helvetica, sans-serif;
+            font-weight:bold; 
+            font-size: 80%; 
+            text-align: left;
+        }
+        #select-info{
+            width: 80%;
+            height: 20%;
+            position: relative;
+            left: 35%;
+        }
+        #weght{
+            width: 100%;
+            height: 40%;
+            position: relative;
+            left: 15%;
+            top: 25%;
+        }
+        #image-weight{
+            width:15% ;
+            height: 10%;
+            background-color: #7FB1D3;
+            border: 0px solid #7FB1D3;
+            position: relative;
+            left: -10%;
+            top: 160%;
+        }
+         .col-options{
+            
+            position: relative;
+            left: -38%;
+            top:60%;
+           
+        }
+        #item-weight{
+            margin-top: 2%;
+            position: relative;
+            left: -35%;
+            width: 50%;
+            height: 25%;
+         
+        }
+        #item-HR{
+            margin-top: 2%;
+            position: relative;
+            left: 20%;
+            top:-26%;
+            width:50%;
+            height: 25%;
+            
+        }
+        #item-steps{
+            margin-top: 2%;
+            position: relative;
+            left: -35%;
+            top:-25%;
+            width: 50%;
+            height: 25%;
+            
+        }
+        #item-foods{
+            margin-top: 2%;
+            position: relative;
+            left: 20%;
+            top: -50.8%;
+            width: 50%;
+            height: 25%;
+            
+        }
+    
+    }
+    
+    @media screen and (min-width:370px) and (max-width:670px){
+        .container-fluid{
+            display: grid;
+            
+            grid-template-columns:190% ;
+            height: 100%;
+           
+        }
+        #principal{
+            width: 100%;
+            height: 110%;
+        }
+        #page-top{
+            background-image: url("/static/css/img/inicioSesion.jpg");
+            width: 100%;
+            height: 100%;
+        
+            background-repeat: no-repeat;
+        }
+
+        .col-chatArea{
+       
+            position: relative;
+             left: 25%;
+             top: 0%; 
+            padding-right: 0%;
+            
+         }
+         #cardShadow{
+             width: 110%;
+             height: 45%;
+             position: relative;
+             left: -54%;
+             top: 240%;
+             background-color: #7FB1D3;
+         }
+         #body-chartArea{
+             width: 115%;
+             height: 75%;
+             position: relative;
+             left: -8%;
+             top: -8%;
+         }
+         #loadingInfoWeght{
+            width: 50%;
+            position: relative;
+            left: 30%;
+            top:80%;
+            font-family: Helvetica, sans-serif;
+            font-weight:bold; 
+            font-size: 120%; 
+            text-align: left;
+        }
+        #select-info{
+            width: 80%;
+            height: 20%;
+            position: relative;
+            left: 35%;
+        }
+     
+        #weght{
+            width: 70%;
+            height: 40%;
+            position: relative;
+            left: 15%;
+            top: 25%;
+        }
+        #image-weight{
+            width:25% ;
+            height: 10%;
+            background-color: #7FB1D3;
+            border: 0px solid #7FB1D3;
+            position: relative;
+            left: -1%;
+            top: 100%;
+        }
+         .col-options{
+            
+            position: relative;
+            left: -38%;
+            top:60%;
+           
+        }
+        #item-weight{
+            margin-top: 2%;
+            position: relative;
+            left: -35%;
+            width: 50%;
+            height: 25%;
+         
+        }
+        #item-HR{
+            margin-top: 2%;
+            position: relative;
+            left: 20%;
+            top:-26%;
+            width:50%;
+            height: 25%;
+            
+        }
+        #item-steps{
+            margin-top: 2%;
+            position: relative;
+            left: -35%;
+            top:-25%;
+            width: 50%;
+            height: 25%;
+            
+        }
+        #item-foods{
+            margin-top: 2%;
+            position: relative;
+            left: 20%;
+            top: -50.8%;
+            width: 50%;
+            height: 25%;
+            
+        }
+    
+    }
+    
+    @media screen and (min-width:410px) and (max-width:825px){
+        .container-fluid{
+            display: grid;
+            
+            grid-template-columns: 200% ;
+            height: 100%;
+           
+        }
+        #principal{
+            width: 100%;
+            height: 130%;
+        }
+        #page-top{
+            background-image: url("/static/css/img/inicioSesion.jpg");
+            width: 100%;
+            height: 170%;
+            background-repeat: no-repeat;
+            
+            
+        }
+        .col-chatArea{
+       
+            position: relative;
+            left: 21.5%;
+            top: 0%; 
+           padding-right: 0%;
+        
+         }
+         #cardShadow{
+            width: 120%;
+             height: 47%;
+             position: relative;
+             left: -50%;
+             top: 277%;
+             background-color: #7FB1D3;
+         }
+         #body-chartArea{
+             width: 110%;
+             height: 65%;
+             position: relative;
+             left: -5%;
+             top: -8%;
+         }
+         #loadingInfoWeght{
+            width: 50%;
+            position: relative;
+            left: 30%;
+            top:80%;
+            font-family: Helvetica, sans-serif;
+            font-weight:bold; 
+            font-size: 120%; 
+            text-align: left;
+        }
+        #select-info{
+            width: 80%;
+            height: 20%;
+            position: relative;
+            left: 35%;
+        }
+        #weght{
+            width: 70%;
+            height: 40%;
+            position: relative;
+            left: 15%;
+            top: 25%;
+        }
+        #image-weight{
+            width:25% ;
+            height: 10%;
+            background-color: #7FB1D3;
+            border: 0px solid #7FB1D3;
+            position: relative;
+            left: -1%;
+            top: 100%;
+        }
+         .col-options{
+            position: relative;
+            left: -38.8%;
+            top:69%;
+            
+        }
+        #item-weight{
+            margin-top: 2%;
+            position: relative;
+            left: -35%;
+            width: 47%;
+            height: 23%;
+         
+        }
+        #item-HR{
+            margin-top: 2%;
+            position: relative;
+            left: 20%;
+            top:-24.8%;
+            width:47%;
+            height: 23%;
+            
+        }
+        #item-steps{
+            margin-top: 2%;
+            position: relative;
+            left: -35%;
+            top:-25%;
+            width: 47%;
+            height: 23%;
+            
+        }
+        #item-foods{
+            margin-top: 2%;
+            position: relative;
+            left: 20%;
+            top: -49.6%;
+            width: 47%;
+            height: 23%;
+            
+        }
+       
+    }
+    
+    @media screen and (min-width:760px) and (max-width:1030px){
+        .container-fluid{
+            display: grid;
+            
+            grid-template-columns: 250% ;
+            height: 100%;
+           
+        }
+        #principal{
+            width: 100%;
+            height: 110%;
+        }
+        #page-top{
+            background-image: url("/static/css/img/inicioSesion.jpg");
+            width: 100%;
+            height: 150%;
+            background-repeat: no-repeat;
+          
+            
+        }
+        .col-chatArea{
+       
+            position: relative;
+             left: 5%;
+             top: 5%; 
+            padding-right: 0%;
+            
+         }
+         #cardShadow{
+            width: 130%;
+             height: 60%;
+             position: relative;
+             left: -30%;
+             top: 360%;
+             background-color: #7FB1D3;
+         }
+         #body-chartArea{
+            width: 100%;
+             height: 65%;
+             position: relative;
+             left: -3%;
+             top: -8%;
+         }
+         #loadingInfoWeght{
+            width: 50%;
+            position: relative;
+            left: 30%;
+            top:80%;
+            font-family: Helvetica, sans-serif;
+            font-weight:bold; 
+            font-size: 120%; 
+            text-align: left;
+        }
+        #select-info{
+            width: 80%;
+            height: 20%;
+            position: relative;
+            left: 35%;
+        }
+     
+        #weght{
+            width: 70%;
+            height: 40%;
+            position: relative;
+            left: 15%;
+            top: 25%;
+        }
+        #image-weight{
+            width:25% ;
+            height: 10%;
+            background-color: #7FB1D3;
+            border: 0px solid #7FB1D3;
+            position: relative;
+            left: -1%;
+            top: 100%;
+        }
+         .col-options{
+            width: 50%;
+            position: relative;
+            left: -21%;
+            top: 26%;
+            
+        }
+        #item-weight{
+            margin-top: 2%;
+            position: relative;
+            left: -26%;
+            
+            width: 22%;
+            height: 20%;
+         
+        }
+        #item-HR{
+            margin-top: 2%;
+            position: relative;
+            top:-1%;
+            left: -26%;
+            width: 22%;
+            height: 20%;
+            
+        }
+        #item-steps{
+            margin-top: 2%;
+            position: relative;
+            left: -26%;
+            top:-2%;
+            width: 22%;
+            height: 20%;
+            
+        }
+        #item-foods{
+            margin-top: 2%;
+            position: relative;
+            top:-2%;
+            left: -26%;
+            width: 22%;
+            height: 20%;
+            
+        }
+       
+    
+    }
+    @media screen and (min-width:1024px) and (max-width:1400px){
+        .container-fluid{
+            display: grid;
+            
+            grid-template-columns: 250% ;
+            height: 100%;
+          
+        }
+        #principal{
+            width: 100%;
+            height: 110%;
+        }
+        #page-top{
+            background-image: url("/static/css/img/inicioSesion.jpg");
+            width: 100%;
+            height: 150%;
+            background-repeat: no-repeat;
+            
+        }
+        .col-chatArea{
+       
+            position: relative;
+             left: 5%;
+             top: 5%; 
+            padding-right: 0%;
+            
+         }
+         #cardShadow{
+            width: 50%;
+             height: 70%;
+             position: relative;
+             left: -30%;
+             top: 250%;
+             background-color: #7FB1D3;
+         }
+         #body-chartArea{
+            width: 100%;
+             height: 65%;
+             position: relative;
+             left: -3%;
+             top: -8%;
+         }
+         #loadingInfoWeght{
+            width: 50%;
+            position: relative;
+            left: 30%;
+            top:80%;
+            font-family: Helvetica, sans-serif;
+            font-weight:bold; 
+            font-size: 120%; 
+            text-align: left;
+        }
+        #select-info{
+            width: 80%;
+            height: 20%;
+            position: relative;
+            left: 35%;
+        }
+     
+        #weght{
+            width: 70%;
+            height: 40%;
+            position: relative;
+            left: 15%;
+            top: 25%;
+        }
+        #image-weight{
+            width:25% ;
+            height: 10%;
+            background-color: #7FB1D3;
+            border: 0px solid #7FB1D3;
+            position: relative;
+            left: -1%;
+            top: 100%;
+        }
+         .col-options{
+            width: 50%;
+            position: relative;
+            left: -21%;
+            top: 26%;
+            
+        }
+        #item-weight{
+            margin-top: 2%;
+            position: relative;
+            left: -26%;
+            
+            width: 22%;
+            height: 20%;
+         
+        }
+        #item-HR{
+            margin-top: 2%;
+            position: relative;
+            top:-1%;
+            left: -26%;
+            width: 22%;
+            height: 20%;
+            
+        }
+        #item-steps{
+            margin-top: 2%;
+            position: relative;
+            left: -26%;
+            top:-2%;
+            width: 22%;
+            height: 20%;
+            
+        }
+        #item-foods{
+            margin-top: 2%;
+            position: relative;
+            top:-2%;
+            left: -26%;
+            width: 22%;
+            height: 20%;
+            
+        }
+    }
+
+
+/* Media query para pagina-doctor */
+
+/* .container-fluidDoctor{
+    display: grid;
+    
+    grid-template-columns: 120% ;
+    height: 100%;
+  
+}
+
+#page-top-doctor{
+    width: 100%;
+    height: 150%;
+    position: relative;
+
+    background-repeat: no-repeat;
+   
+
+}
+
+.col-chatAreaDoctor{
+   
+   position: relative;
+    left: 5%;
+    top: 5%; 
+   padding-right: 0%;
+  
+}
+#cardShadow-doctor{
+    width: 80%;
+    height: 70%;
+    background-color: #7FB1D3;
+}
+#body-chartAreaDoctor{
+    width: 100%;
+    height: 60%;
+    position: relative;
+    left: -3%;
+    top: 10%;
+}
+.col-options{
+    width: 50%;
+    
+}
+#item-weight{
+    margin-top: 2%;
+    position: relative;
+    left: -26%;
+    width: 28%;
+    height: 20%;
+ 
+}
+#item-HR{
+    margin-top: 2%;
+    position: relative;
+    left: -26%;
+    width: 28%;
+    height: 20%;
+    
+}
+#item-steps{
+    margin-top: 2%;
+    position: relative;
+    left: -26%;
+    width: 28%;
+    height: 20%;
+    
+}
+#item-foods{
+    margin-top: 2%;
+    position: relative;
+    left: -26%;
+    width: 28%;
+    height: 20%;
+    
+}
+
+@media screen and (min-width:310px) and (max-width:580px){
+    .container-fluidDoctor{
+        display: grid;
+        
+        grid-template-columns:190% ;
+        height: 100%;
+      
+    }
+    #principal{
+        width: 100%;
+        height: 100%;
+    }
+    #page-top-doctor{
+        background-image: url("/static/css/img/inicioSesion.jpg");
+        width: 100%;
+        height: 100%;
+    
+        background-repeat: no-repeat;
+        
+        
+    }
+    .col-chatAreaDoctor{
+   
+        position: relative;
+        left: 25%;
+        top: 0%; 
+       padding-right: 0%;
+        
+     }
+     #cardShadow-doctor{
+        width: 110%;
+        height: 45%;
+        position: relative;
+        left: -50%;
+        top: 185%;
+        background-color: #7FB1D3;
+     }
+     #body-chartAreaDoctor{
+        width: 115%;
+        height: 75%;
+        position: relative;
+        left: -8%;
+        top: -8%;
+     }
+     .col-options{
+        position: relative;
+        left: -36%;
+        top:50  1%;
+       
+    }
+    #item-weight{
+        margin-top: 2%;
+        position: relative;
+        left: -35%;
+        width: 50%;
+        height: 25%;
+     
+    }
+    #item-HR{
+        margin-top: 2%;
+        position: relative;
+        left: 20%;
+        top:-26%;
+        width:50%;
+        height: 25%;
+        
+    }
+    #item-steps{
+        margin-top: 2%;
+        position: relative;
+        left: -35%;
+        top:-25%;
+        width: 50%;
+        height: 25%;
+        
+    }
+    #item-foods{
+        margin-top: 2%;
+        position: relative;
+        left: 20%;
+        top: -50.8%;
+        width: 50%;
+        height: 25%;
+        
+    }
+}
+
+@media screen and (min-width:360px) and (max-width:680px){
+    .container-fluidDoctor{
+        display: grid;
+        
+        grid-template-columns:190% ;
+        height: 100%;
+       
+    }
+    #principal{
+        width: 100%;
+        height: 110%;
+    }
+    #page-top-doctor{
+        background-image: url("/static/css/img/inicioSesion.jpg");
+        width: 100%;
+        height: 100%;
+    
+        background-repeat: no-repeat;
+    }
+
+    .col-chatAreaDoctor{
+   
+        position: relative;
+         left: 25%;
+         top: 0%; 
+        padding-right: 0%;
+        
+     }
+     #cardShadow-doctor{
+         width: 110%;
+         height: 45%;
+         position: relative;
+         left: -58%;
+         top: 200%;
+         background-color: #7FB1D3;
+     }
+     #body-chartAreaDoctor{
+         width: 115%;
+         height: 75%;
+         position: relative;
+         left: -8%;
+         top: -8%;
+     }
+    
+     .col-options{
+        
+        position: relative;
+        left: -38%;
+        top:60%;
+       
+    }
+    #item-weight{
+        margin-top: 2%;
+        position: relative;
+        left: -35%;
+        width: 50%;
+        height: 25%;
+     
+    }
+    #item-HR{
+        margin-top: 2%;
+        position: relative;
+        left: 20%;
+        top:-26%;
+        width:50%;
+        height: 25%;
+        
+    }
+    #item-steps{
+        margin-top: 2%;
+        position: relative;
+        left: -35%;
+        top:-25%;
+        width: 50%;
+        height: 25%;
+        
+    }
+    #item-foods{
+        margin-top: 2%;
+        position: relative;
+        left: 20%;
+        top: -50.8%;
+        width: 50%;
+        height: 25%;
+        
+    }
+
+}
+
+@media screen and (min-width:370px) and (max-width:670px){
+    .container-fluidDoctor{
+        display: grid;
+        
+        grid-template-columns:190% ;
+        height: 100%;
+       
+    }
+    #principal{
+        width: 100%;
+        height: 110%;
+    }
+    #page-top-doctor{
+        background-image: url("/static/css/img/inicioSesion.jpg");
+        width: 100%;
+        height: 100%;
+    
+        background-repeat: no-repeat;
+    }
+
+    .col-chatAreaDoctor{
+   
+        position: relative;
+         left: 25%;
+         top: 0%; 
+        padding-right: 0%;
+        
+     }
+     #cardShadow-doctor{
+         width: 110%;
+         height: 45%;
+         position: relative;
+         left: -54%;
+         top: 240%;
+         background-color: #7FB1D3;
+     }
+     #body-chartAreaDoctor{
+         width: 115%;
+         height: 75%;
+         position: relative;
+         left: -8%;
+         top: -8%;
+     }
+    
+     .col-options{
+        
+        position: relative;
+        left: -38%;
+        top:60%;
+       
+    }
+    #item-weight{
+        margin-top: 2%;
+        position: relative;
+        left: -35%;
+        width: 50%;
+        height: 25%;
+     
+    }
+    #item-HR{
+        margin-top: 2%;
+        position: relative;
+        left: 20%;
+        top:-26%;
+        width:50%;
+        height: 25%;
+        
+    }
+    #item-steps{
+        margin-top: 2%;
+        position: relative;
+        left: -35%;
+        top:-25%;
+        width: 50%;
+        height: 25%;
+        
+    }
+    #item-foods{
+        margin-top: 2%;
+        position: relative;
+        left: 20%;
+        top: -50.8%;
+        width: 50%;
+        height: 25%;
+        
+    }
+
+}
+
+@media screen and (min-width:410px) and (max-width:780px){
+    .container-fluidDoctor{
+        display: grid;
+        
+        grid-template-columns: 180% ;
+        height: 100%;
+       
+    }
+    #principal{
+        width: 100%;
+        height: 130%;
+    }
+    #page-top-doctor{
+        background-image: url("/static/css/img/inicioSesion.jpg");
+        width: 100%;
+        height: 170%;
+        background-repeat: no-repeat;
+        
+        
+    }
+    .col-chatAreaDoctor{
+   
+        position: relative;
+        left: 25%;
+        top: 0%; 
+       padding-right: 0%;
+    
+     }
+     #cardShadow-doctor{
+        width: 120%;
+         height: 43%;
+         position: relative;
+         left: -50%;
+         top: 210%;
+         background-color: #7FB1D3;
+     }
+     #body-chartAreaDoctor{
+         width: 110%;
+         height: 65%;
+         position: relative;
+         left: -3%;
+         top: -8%;
+     }
+
+     .col-options{
+        position: relative;
+        left: -35%;
+        top:65%;
+        
+    }
+    #item-weight{
+        margin-top: 2%;
+        position: relative;
+        left: -35%;
+        width: 48%;
+        height: 25%;
+     
+    }
+    #item-HR{
+        margin-top: 2%;
+        position: relative;
+        left: 20%;
+        top:-26%;
+        width:48%;
+        height: 25%;
+        
+    }
+    #item-steps{
+        margin-top: 2%;
+        position: relative;
+        left: -35%;
+        top:-25%;
+        width: 48%;
+        height: 25%;
+        
+    }
+    #item-foods{
+        margin-top: 2%;
+        position: relative;
+        left: 20%;
+        top: -50.8%;
+        width: 48%;
+        height: 25%;
+        
+    }
+   
+}
+
+@media screen and (min-width:760px) and (max-width:1024px){
+    .container-fluidDoctor{
+        display: grid;
+        
+        grid-template-columns: 250% ;
+        height: 100%;
+       
+    }
+    #principal{
+        width: 100%;
+        height: 110%;
+    }
+    #page-top-doctor{
+        background-image: url("/static/css/img/inicioSesion.jpg");
+        width: 100%;
+        height: 150%;
+        background-repeat: no-repeat;
+      
+        
+    }
+    .col-chatAreaDoctor{
+   
+        position: relative;
+         left: 5%;
+         top: 5%; 
+        padding-right: 0%;
+        
+     }
+     #cardShadow-doctor{
+        width: 130%;
+         height: 60%;
+         position: relative;
+         left: -30%;
+         top: 360%;
+         background-color: #7FB1D3;
+     }
+     #body-chartAreaDoctor{
+        width: 100%;
+         height: 65%;
+         position: relative;
+         left: -3%;
+         top: -8%;
+     }
+
+     .col-options{
+        width: 50%;
+        position: relative;
+        left: -21%;
+        top: 26%;
+        
+    }
+    #item-weight{
+        margin-top: 2%;
+        position: relative;
+        left: -26%;
+        
+        width: 22%;
+        height: 20%;
+     
+    }
+    #item-HR{
+        margin-top: 2%;
+        position: relative;
+        top:-1%;
+        left: -26%;
+        width: 22%;
+        height: 20%;
+        
+    }
+    #item-steps{
+        margin-top: 2%;
+        position: relative;
+        left: -26%;
+        top:-2%;
+        width: 22%;
+        height: 20%;
+        
+    }
+    #item-foods{
+        margin-top: 2%;
+        position: relative;
+        top:-2%;
+        left: -26%;
+        width: 22%;
+        height: 20%;
+        
+    }
+   
+
+}
+@media screen and (min-width:1024px) and (max-width:1400px){
+    .container-fluidDoctor{
+        display: grid;
+        
+        grid-template-columns: 250% ;
+        height: 100%;
+      
+    }
+    #principal{
+        width: 100%;
+        height: 110%;
+    }
+    #page-top-doctor{
+        background-image: url("/static/css/img/inicioSesion.jpg");
+        width: 100%;
+        height: 150%;
+        background-repeat: no-repeat;
+        
+    }
+    .col-chatAreaDoctor{
+   
+        position: relative;
+         left: 5%;
+         top: 5%; 
+        padding-right: 0%;
+        
+     }
+     #cardShadow-doctor{
+        width: 50%;
+         height: 70%;
+         position: relative;
+         left: -30%;
+         top: 250%;
+         background-color: #7FB1D3;
+     }
+     #body-chartAreaDoctor{
+        width: 100%;
+         height: 65%;
+         position: relative;
+         left: -3%;
+         top: -8%;
+     }
+
+     .col-options{
+        width: 50%;
+        position: relative;
+        left: -21%;
+        top: 26%;
+        
+    }
+    #item-weight{
+        margin-top: 2%;
+        position: relative;
+        left: -26%;
+        
+        width: 22%;
+        height: 20%;
+     
+    }
+    #item-HR{
+        margin-top: 2%;
+        position: relative;
+        top:-1%;
+        left: -26%;
+        width: 22%;
+        height: 20%;
+        
+    }
+    #item-steps{
+        margin-top: 2%;
+        position: relative;
+        left: -26%;
+        top:-2%;
+        width: 22%;
+        height: 20%;
+        
+    }
+    #item-foods{
+        margin-top: 2%;
+        position: relative;
+        top:-2%;
+        left: -26%;
+        width: 22%;
+        height: 20%;
+        
+    }
+}
+
+ */
+
+
+
+#username-login{
+    height: 50%;
+    width: 70%;
+    margin-left:15% ;
+}
+#password-login{
+    height: 50%;
+    width: 70%;
+    margin-left:15% ;
+}
+.container{
+    background-color: gainsboro;
+}
